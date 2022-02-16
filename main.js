@@ -32,3 +32,7 @@ function gotResult(error,results){
     utterThis = new SpeechSynthesisUtterance(results[0].label);
     synth.speak(utterThis);
 }
+
+function clearCanvas(){
+    background("white");
+}

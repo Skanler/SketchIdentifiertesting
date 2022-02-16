@@ -1,0 +1,28 @@
+h1{
+    background-color: #0097FF;
+}
+
+#sketches{
+    float:right;
+}
+
+canvas{
+    border:5px solid #0097FF;
+    border-radius:5%;
+    background-color: white;
+    animation-name: looprgb;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+@keyframes looprgb {
+    from{
+        box-shadow: 1px 1px 38px grey;
+
+    }
+    to{
+        box-shadow: 1px 1px 38px white;
+    }
+}
+
